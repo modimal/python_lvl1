@@ -22,24 +22,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="22" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="22" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="7979" />
+          <entry key="py" value="11309" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="7979" />
+          <entry key="Python" value="11309" />
         </counts>
       </usages-collector>
     </session>
@@ -47,12 +47,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson04/python/normal3.py">
+        <entry file="file://$PROJECT_DIR$/lesson05/normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="314">
+              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson05/mods/dirwork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="e#17#26#0" expanded="true" />
+                <marker date="1537541184864" expanded="true" signature="151:320" ph="..." />
+                <marker date="1537541184864" expanded="true" signature="751:1025" ph="..." />
+                <marker date="1537541184864" expanded="true" signature="1947:1971" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,6 +109,8 @@
         <option value="$PROJECT_DIR$/lesson04/normal2_test.py" />
         <option value="$PROJECT_DIR$/lesson04/normal3.py" />
         <option value="$PROJECT_DIR$/lesson04/python/normal3.py" />
+        <option value="$PROJECT_DIR$/lesson05/normal.py" />
+        <option value="$PROJECT_DIR$/lesson05/mods/dirwork.py" />
       </list>
     </option>
   </component>
@@ -102,12 +119,12 @@
     <option name="width" value="1680" />
     <option name="height" value="991" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,18 +135,19 @@
             <path>
               <item name="python_lvl1" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_lvl1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_lvl1" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_lvl1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson05" type="462c0819:PsiDirectoryNode" />
+              <item name="mods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +165,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.normal1 (1)">
+  <component name="RunManager" selected="Python.normal">
+    <configuration name="normal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_lvl1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson05/normal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="normal1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_lvl1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,27 +250,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="normal2_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_lvl1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson04/normal2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="normal3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_lvl1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,18 +273,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.normal2" />
-      <item itemvalue="Python.normal2_test" />
       <item itemvalue="Python.normal2 (1)" />
       <item itemvalue="Python.normal3" />
       <item itemvalue="Python.normal1 (1)" />
+      <item itemvalue="Python.normal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.normal" />
         <item itemvalue="Python.normal1 (1)" />
         <item itemvalue="Python.normal3" />
         <item itemvalue="Python.normal2 (1)" />
         <item itemvalue="Python.normal2" />
-        <item itemvalue="Python.normal2_test" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +293,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73ba6a46-1d3f-4c2b-bfa0-3cd68e53cc1b" name="Default Changelist" comment="" />
+      <changelist id="a89d1581-3f02-4d92-8d7f-052a083ef905" name="Default Changelist" comment="" />
       <created>1536856308593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -294,14 +312,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="991" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,6 +331,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -375,58 +411,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/easy1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/easy2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/easy3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/normal1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/normal2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="70" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/normal2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/normal3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/easy1.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/easy2.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/easy3.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/normal1.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/normal2.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lesson04/normal3.py" />
     <entry file="file://$PROJECT_DIR$/lesson04/python/normal2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-852" />
@@ -439,6 +430,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/mods/dirwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+            <marker date="1537541184864" expanded="true" signature="151:320" ph="..." />
+            <marker date="1537541184864" expanded="true" signature="751:1025" ph="..." />
+            <marker date="1537541184864" expanded="true" signature="1947:1971" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/normal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
           </folding>
