@@ -9,6 +9,9 @@ DIR_HAS_BEEN_CHANGED = False
 
 
 def __get_npath(dir_path, file_name, file_ext, mode):
+
+    # Создать уникальное имя файла/директории
+
     nfile_name = 'dir%d' % CPDIR_I if mode == 'dir' else file_name + '_copy%d' % CPFILE_I + file_ext
     npath = os.path.join(dir_path, nfile_name)
 
@@ -23,7 +26,11 @@ def make_dir(dir_path):
         CPDIR_I = 1
         DIR_HAS_BEEN_CHANGED = False
 
+    # Получить новый абсолютный путь к новой директории
+
     npath = __get_npath(dir_path, None, None, 'dir')
+
+    # Создание уникального абсолютного пути к новой директории
 
     while os.path.isdir(npath):
         CPDIR_I += 1
@@ -61,8 +68,12 @@ def copyfile(dir_path, file_path):
         CPFILE_I = 1
         DIR_HAS_BEEN_CHANGED = False
 
+    # Достаю имя файла и его расширение
+
     file_info = os.path.splitext(os.path.basename(file_path))
     npath = __get_npath(dir_path, file_info[0], file_info[1], 'file')
+
+    # Создание уникального абсолютного пути к новому файлу-копии
 
     while os.path.exists(npath):
         CPFILE_I += 1

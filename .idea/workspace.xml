@@ -33,24 +33,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="11309" />
+          <entry key="py" value="11594" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="11309" />
+          <entry key="Python" value="11594" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson05/normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="390">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
               </folding>
@@ -58,16 +58,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson05/mods/dirwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="1650">
+              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
-                <marker date="1537541184864" expanded="true" signature="151:320" ph="..." />
-                <marker date="1537541184864" expanded="true" signature="751:1025" ph="..." />
-                <marker date="1537541184864" expanded="true" signature="1947:1971" ph="..." />
+                <marker date="1537542078373" expanded="true" signature="199:368" ph="..." />
+                <marker date="1537542078373" expanded="true" signature="920:1194" ph="..." />
+                <marker date="1537542078373" expanded="true" signature="2223:2247" ph="..." />
               </folding>
             </state>
           </provider>
@@ -434,25 +434,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/normal.py">
+    <entry file="file://$PROJECT_DIR$/lesson05/mods/dirwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        <state relative-caret-position="1650">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
+            <marker date="1537542078373" expanded="true" signature="199:368" ph="..." />
+            <marker date="1537542078373" expanded="true" signature="920:1194" ph="..." />
+            <marker date="1537542078373" expanded="true" signature="2223:2247" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/mods/dirwork.py">
+    <entry file="file://$PROJECT_DIR$/lesson05/normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1537541184864" expanded="true" signature="151:320" ph="..." />
-            <marker date="1537541184864" expanded="true" signature="751:1025" ph="..." />
-            <marker date="1537541184864" expanded="true" signature="1947:1971" ph="..." />
           </folding>
         </state>
       </provider>
