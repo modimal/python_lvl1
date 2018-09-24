@@ -12,9 +12,13 @@ print('sys.argv = ', sys.argv)
 
 
 def print_help():
-    print('help - получение справки')
-    print('mkdir <dir_name> - создание директории')
-    print('ping - тестовый ключ')
+    print('help - получение справки\n'
+          'mkdir <dir_name> - создание директории\n'
+          'cp <file_name> - создание копии указанного файла\n'
+          'rm <file_name> - удаление указанного файла\n'
+          'cd <full_path or relative_path> - изменение текущей директории на указанную\n'
+          'ls - отображение полного пути текущей директории\n'
+          'ping - тестовый ключ')
 
 
 def make_dir():
