@@ -34,20 +34,20 @@ while True:
             print('\nОшибка: mkdir,N -> вводите целое число N больше 0!')
 
     elif answer[0] == 'mkdir':
-        do[answer[0]](os.getcwd())
+        do['mkdir'](os.getcwd())
 
     elif answer[0] == 'rmdir':
         rmpath = os.path.abspath(answer[1])
-        do[answer[0]](rmpath)
+        do['rmdir'](rmpath)
 
     elif answer[0] == 'show':
-        do[answer[0]](os.getcwd())
+        do['show'](os.getcwd())
 
     elif answer[0] == 'copy':
-        do[answer[0]](os.getcwd(), os.path.abspath(__file__))
+        do['copy'](os.getcwd(), os.path.abspath(__file__))
 
     elif answer[0] == 'chdir':
-        do[answer[0]](os.path.abspath(answer[1]))
+        do['chdir'](os.path.abspath(answer[1]))
 
     elif answer[0] == 'exit':
         exit(0)
