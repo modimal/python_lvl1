@@ -1,1 +1,2 @@
-# python_lvl1
+# Курс от GeekBrains. Python. Уровень 1.
+Арсен Бекжанов.
